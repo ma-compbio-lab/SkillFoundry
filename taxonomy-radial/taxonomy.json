@@ -1,0 +1,450 @@
+{
+  "name": "SciSkillUniverse",
+  "domainCount": 27,
+  "subdomainCount": 254,
+  "domains": [
+    {
+      "key": "scientific_knowledge_access_and_method_extraction",
+      "title": "Scientific Knowledge Access & Method Extraction",
+      "subdomains": [
+        "Literature search",
+        "Paper triage and ranking",
+        "Review-paper mining",
+        "Benchmark-paper mining",
+        "Method-section extraction",
+        "Figure / table extraction",
+        "Citation chaining",
+        "Reproducibility cue extraction",
+        "Dataset / code / package link extraction",
+        "Protocol and workflow extraction",
+        "Scientific summarization",
+        "Claim / assumption / limitation extraction"
+      ],
+      "count": 12
+    },
+    {
+      "key": "data_acquisition_and_dataset_handling",
+      "title": "Data Acquisition & Dataset Handling",
+      "subdomains": [
+        "Public dataset discovery",
+        "Metadata harmonization",
+        "Format conversion",
+        "Compression / decompression",
+        "Chunking / sharding",
+        "Data validation",
+        "Data provenance tracking",
+        "Synthetic toy dataset generation for tests"
+      ],
+      "count": 8
+    },
+    {
+      "key": "genomics",
+      "title": "Genomics",
+      "subdomains": [
+        "FASTQ / BAM / CRAM basics",
+        "Read QC and trimming",
+        "Alignment and mapping",
+        "Quantification",
+        "Variant calling",
+        "Variant filtering",
+        "Annotation and effect prediction",
+        "Somatic pipelines",
+        "Germline pipelines",
+        "GWAS",
+        "Fine mapping",
+        "Polygenic risk scoring",
+        "Comparative genomics",
+        "Phylogenomics",
+        "Long-read genomics",
+        "Metagenomics"
+      ],
+      "count": 16
+    },
+    {
+      "key": "transcriptomics",
+      "title": "Transcriptomics",
+      "subdomains": [
+        "Bulk RNA-seq QC and normalization",
+        "Differential expression",
+        "Isoform / transcript-level analysis",
+        "Single-cell RNA-seq preprocessing",
+        "Single-cell integration / batch correction",
+        "Cell type annotation",
+        "Trajectory inference",
+        "RNA velocity",
+        "Pseudobulk analysis",
+        "Perturb-seq",
+        "Spatial transcriptomics",
+        "Multi-sample / atlas workflows"
+      ],
+      "count": 12
+    },
+    {
+      "key": "epigenomics_and_chromatin",
+      "title": "Epigenomics & Chromatin",
+      "subdomains": [
+        "ATAC-seq",
+        "ChIP-seq",
+        "CUT&RUN / CUT&Tag",
+        "Methylation analysis",
+        "Peak calling",
+        "Motif analysis",
+        "Footprinting",
+        "Chromatin interaction / Hi-C",
+        "Multiome integration"
+      ],
+      "count": 9
+    },
+    {
+      "key": "proteomics_and_protein_biology",
+      "title": "Proteomics & Protein Biology",
+      "subdomains": [
+        "Proteomics dataset discovery",
+        "Protein accession and metadata lookup",
+        "MS proteomics preprocessing",
+        "Protein identification / quantification",
+        "Differential proteomics",
+        "PTM analysis",
+        "Protein families and domains",
+        "Sequence feature annotation",
+        "Protein embeddings",
+        "Protein structure cross-links",
+        "Interface analysis",
+        "Sequence-to-function modeling"
+      ],
+      "count": 12
+    },
+    {
+      "key": "metabolomics_and_other_omics",
+      "title": "Metabolomics & Other Omics",
+      "subdomains": [
+        "Metabolomics preprocessing",
+        "Feature annotation",
+        "Differential metabolomics",
+        "Lipidomics",
+        "Microbiome analysis",
+        "Multi-omics integration"
+      ],
+      "count": 6
+    },
+    {
+      "key": "structural_biology_and_molecular_modeling",
+      "title": "Structural Biology & Molecular Modeling",
+      "subdomains": [
+        "Structure parsing and cleanup",
+        "PDB / mmCIF utilities",
+        "Visualization",
+        "Fold comparison",
+        "Binding site analysis",
+        "Sequence/structure alignment",
+        "Structure-to-sequence cross-linking",
+        "Protein complex metadata"
+      ],
+      "count": 8
+    },
+    {
+      "key": "systems_biology_and_network_science",
+      "title": "Systems Biology & Network Science",
+      "subdomains": [
+        "Gene set enrichment",
+        "Pathway analysis",
+        "Reactome event lookup",
+        "Reactome identifier enrichment",
+        "Pathway traversal and hierarchy walks",
+        "Gene-set tooling from Bioconductor",
+        "Regulatory network inference",
+        "Protein-protein interaction analysis",
+        "Graph construction",
+        "Network propagation",
+        "Causal network analysis"
+      ],
+      "count": 11
+    },
+    {
+      "key": "imaging_and_phenotype_analysis",
+      "title": "Imaging & Phenotype Analysis",
+      "subdomains": [
+        "Microscopy pipelines",
+        "Segmentation",
+        "Cell tracking",
+        "Pathology / histology workflows",
+        "Feature extraction",
+        "Representation learning for scientific images",
+        "Multi-modal image-omics integration"
+      ],
+      "count": 7
+    },
+    {
+      "key": "drug_discovery_and_cheminformatics",
+      "title": "Drug Discovery & Cheminformatics",
+      "subdomains": [
+        "Molecule standardization",
+        "Compound identifier lookup",
+        "Descriptor computation",
+        "Fingerprints and similarity search",
+        "Scaffold analysis",
+        "QSAR / property prediction",
+        "Virtual screening",
+        "ADMET modeling",
+        "Molecular generation",
+        "Benchmarks and evaluation"
+      ],
+      "count": 10
+    },
+    {
+      "key": "computational_chemistry_and_molecular_simulation",
+      "title": "Computational Chemistry & Molecular Simulation",
+      "subdomains": [
+        "Small-molecule conformer generation",
+        "Force-field assignment",
+        "Molecular dynamics setup",
+        "Molecular dynamics execution",
+        "Trajectory analysis",
+        "Free-energy workflows",
+        "Quantum chemistry setup",
+        "Single-point energy calculations",
+        "Geometry optimization",
+        "QM/MM workflows"
+      ],
+      "count": 10
+    },
+    {
+      "key": "materials_science_and_engineering",
+      "title": "Materials Science & Engineering",
+      "subdomains": [
+        "Crystal structure parsing",
+        "Composition featurization",
+        "Materials-property prediction",
+        "Surrogate models for simulation",
+        "Materials benchmark datasets",
+        "Generative design for materials",
+        "Phase / stability analysis",
+        "Laboratory-to-simulation data linkage"
+      ],
+      "count": 8
+    },
+    {
+      "key": "earth_climate_and_geospatial_science",
+      "title": "Earth Climate & Geospatial Science",
+      "subdomains": [
+        "Raster / vector ingestion",
+        "Remote sensing preprocessing",
+        "Time-series environmental data handling",
+        "Climate reanalysis access",
+        "Geospatial feature engineering",
+        "Physics-informed forecasting",
+        "Spatial interpolation and uncertainty",
+        "Scientific map and dashboard generation"
+      ],
+      "count": 8
+    },
+    {
+      "key": "clinical_biomedical_data_science",
+      "title": "Clinical Biomedical Data Science",
+      "subdomains": [
+        "EHR preprocessing",
+        "Survival analysis",
+        "Time-series clinical modeling",
+        "Cohort extraction",
+        "Phenotyping",
+        "Missing-data handling",
+        "Fairness / bias analysis",
+        "Privacy-preserving analysis"
+      ],
+      "count": 8
+    },
+    {
+      "key": "statistical_and_machine_learning_foundations_for_science",
+      "title": "Statistical & Machine Learning Foundations For Science",
+      "subdomains": [
+        "Experimental design",
+        "Statistical testing",
+        "Bayesian workflows",
+        "Causal inference",
+        "Dimensionality reduction",
+        "Clustering",
+        "Representation learning",
+        "Foundation models for biology / chemistry / science",
+        "Multimodal fusion",
+        "Uncertainty estimation",
+        "Active learning",
+        "Bayesian optimization",
+        "Simulation-based inference"
+      ],
+      "count": 13
+    },
+    {
+      "key": "scientific_agents_and_automation",
+      "title": "Scientific Agents & Automation",
+      "subdomains": [
+        "Literature-to-hypothesis agents",
+        "Tool-using analysis agents",
+        "Planning and execution agents",
+        "Workflow generation agents",
+        "Code-generation agents for scientific tasks",
+        "Evaluation harnesses for scientific agents",
+        "Long-horizon agent memory and provenance",
+        "Agent orchestration over skills and registries"
+      ],
+      "count": 8
+    },
+    {
+      "key": "reproducible_workflows_and_workflow_engines",
+      "title": "Reproducible Workflows & Workflow Engines",
+      "subdomains": [
+        "Snakemake",
+        "Nextflow / nf-core",
+        "CWL command-line tools",
+        "CWL workflows",
+        "WDL tasks",
+        "WDL workflows",
+        "Workflow interoperability and translation",
+        "Docker / Apptainer / Singularity",
+        "Conda / Mamba / Pixi / uv",
+        "Environment locking",
+        "Reproducible notebooks",
+        "CI for scientific pipelines"
+      ],
+      "count": 12
+    },
+    {
+      "key": "hpc_slurm_and_scaling",
+      "title": "HPC Slurm & Scaling",
+      "subdomains": [
+        "Interactive debug workflows",
+        "Batch jobs",
+        "Job arrays",
+        "GPU jobs",
+        "Multi-node jobs",
+        "CPU / memory tuning",
+        "I/O-aware workflows",
+        "Scratch-space usage",
+        "Cluster-safe installs",
+        "Monitoring and accounting"
+      ],
+      "count": 10
+    },
+    {
+      "key": "visualization_and_reporting",
+      "title": "Visualization & Reporting",
+      "subdomains": [
+        "Publication plots",
+        "Dashboards",
+        "Interactive reports",
+        "Notebook-to-report conversion",
+        "Figure recreation from papers",
+        "Summary pages and catalogs",
+        "Skill browser / mindmap generation"
+      ],
+      "count": 7
+    },
+    {
+      "key": "meta_maintenance",
+      "title": "Meta Maintenance",
+      "subdomains": [
+        "Taxonomy refinement",
+        "Resource deduplication",
+        "Skill deduplication",
+        "Freshness audits",
+        "Broken-link audits",
+        "Regression testing",
+        "Deprecation / migration",
+        "Documentation quality improvement"
+      ],
+      "count": 8
+    },
+    {
+      "key": "neuroscience_and_neuroimaging",
+      "title": "Neuroscience & Neuroimaging",
+      "subdomains": [
+        "Neuroimaging I/O and formats",
+        "fMRI preprocessing and denoising",
+        "EEG / MEG preprocessing",
+        "Connectomics and graph analysis",
+        "Spike sorting and electrophysiology",
+        "Neural decoding and encoding models",
+        "Brain atlas integration",
+        "Multimodal neuroimaging fusion",
+        "Computational psychiatry and clinical neuroinformatics"
+      ],
+      "count": 9
+    },
+    {
+      "key": "physics_and_astronomy",
+      "title": "Physics & Astronomy",
+      "subdomains": [
+        "PDE / CFD simulation workflows",
+        "Operator learning and surrogate physics models",
+        "Inverse problems and scientific reconstruction",
+        "Differentiable simulation",
+        "High-energy / detector data analysis",
+        "Cosmology and sky-survey analysis",
+        "Telescope image preprocessing",
+        "Spectroscopy and signal extraction",
+        "Symbolic discovery of physical laws",
+        "Scientific time-series anomaly detection"
+      ],
+      "count": 10
+    },
+    {
+      "key": "ecology_evolution_and_biodiversity",
+      "title": "Ecology Evolution & Biodiversity",
+      "subdomains": [
+        "Species distribution modeling",
+        "Biodiversity dataset discovery",
+        "Population dynamics and ecological forecasting",
+        "Phylogenetic comparative workflows",
+        "Conservation genomics and eDNA",
+        "Wildlife sensing and bioacoustics",
+        "Ecosystem remote sensing",
+        "Climate-ecology integration"
+      ],
+      "count": 8
+    },
+    {
+      "key": "agriculture_food_and_plant_science",
+      "title": "Agriculture Food & Plant Science",
+      "subdomains": [
+        "Plant phenotyping",
+        "Crop genomics and breeding",
+        "Precision agriculture sensing",
+        "Soil / rhizosphere / microbiome analysis",
+        "Yield forecasting",
+        "Disease and stress detection",
+        "Agronomic experiment design",
+        "Food chemistry and quality modeling"
+      ],
+      "count": 8
+    },
+    {
+      "key": "robotics_lab_automation_and_scientific_instrumentation",
+      "title": "Robotics Lab Automation & Scientific Instrumentation",
+      "subdomains": [
+        "Liquid-handling protocol generation",
+        "Robotic experiment planning",
+        "Active-learning experiment loops",
+        "Instrument control and scheduling",
+        "Automated microscopy acquisition",
+        "ELN / LIMS / sample-tracking integration",
+        "Laboratory robotics safety and monitoring",
+        "Closed-loop optimization for experiments"
+      ],
+      "count": 8
+    },
+    {
+      "key": "scientific_computing_and_numerical_methods",
+      "title": "Scientific Computing & Numerical Methods",
+      "subdomains": [
+        "ODE / SDE simulation workflows",
+        "PDE discretization and solvers",
+        "Sparse / iterative linear algebra",
+        "Automatic differentiation for scientific models",
+        "Differentiable programming for simulators",
+        "Inverse problems and data assimilation",
+        "Uncertainty-aware simulation",
+        "Numerical benchmarking and verification"
+      ],
+      "count": 8
+    }
+  ]
+}
