@@ -1,8 +1,0 @@
-variant_id	chromosome	position	effect_allele	other_allele	beta	se	p	n	eaf	info	qc_status	include_in_downstream	qc_flags
-rs111111	1	10101	A	G	0.11	0.02	1e-08	50000	0.42	0.99	pass	true	
-1:10200:C:T	1	10200	T	C	-0.06	0.015	2e-06	49800	0.18	0.96	pass	true	
-rsPAL	2	20500	A	T	0.02	0.03	0.4	51000	0.49	0.98	fail	false	ambiguous_palindromic
-rsLOWINFO	3	30900	C	G	0.08	0.04	0.03	50500	0.2	0.5	fail	false	low_info
-rsBADP	5	50100	G	A	0.12	0.05	1.4	52000	0.1	0.9	fail	false	invalid_p
-rsLOWN	6	60200	G	C	0.15	0.05	5e-07	12000	0.3	0.95	pass	true	low_sample_size
-rs111111	1	10101	A	G	0.1	0.02	0.0001	50000	0.42	0.99	fail	false	duplicate_variant_id

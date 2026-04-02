@@ -1,8 +1,0 @@
-{
-  "files": {
-    "features": "features.tsv",
-    "matrix": "matrix.tsv",
-    "samples": "samples.tsv"
-  },
-  "seed": 17
-}

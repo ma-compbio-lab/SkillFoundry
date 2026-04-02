@@ -1,4 +1,0 @@
-sample_id,condition,count
-S1,control,12
-S2,treated,not_an_int
-S3,treated,21

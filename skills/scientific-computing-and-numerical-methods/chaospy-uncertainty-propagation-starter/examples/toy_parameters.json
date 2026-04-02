@@ -1,8 +1,0 @@
-{
-  "normal_mean": 1.0,
-  "normal_std": 0.1,
-  "uniform_low": 0.9,
-  "uniform_high": 1.1,
-  "polynomial_order": 2,
-  "quadrature_order": 3
-}

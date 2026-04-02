@@ -1,3 +1,0 @@
-We released the processed dataset at https://zenodo.org/records/1234567 and the raw data browser at https://figshare.com/articles/dataset/example/12345.
-The analysis code is available at https://github.com/example-lab/single-cell-benchmark and container recipes are documented at https://hub.docker.com/r/examplelab/scpipeline.
-Users can install the model package from https://pypi.org/project/science-model/ or inspect the library page at https://anaconda.org/conda-forge/science-model.

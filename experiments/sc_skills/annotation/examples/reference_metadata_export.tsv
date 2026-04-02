@@ -1,5 +1,0 @@
-dataset_id	dataset_title	collection_name	species	tissue	disease	assay	suspension_type	dataset_total_cell_count	has_broad_labels	has_subtype_labels	cell_type_obs_key	subtype_obs_key	is_primary_data	dataset_h5ad_uri
-cxg_human_lung_normal_001	Human normal lung immune-epithelial atlas	Toy CELLxGENE Discover	human	lung	normal	10x 3' v3	cell	12000	TRUE	TRUE	cell_type	subtype_label	TRUE	s3://toy-cellxgene/human_lung_normal_001.h5ad
-cxg_human_lung_inflamed_002	Human inflamed lung immune-skewed atlas	Toy CELLxGENE Discover	human	lung	inflamed	10x 3' v3	cell	9800	TRUE	TRUE	cell_type	subtype_label	TRUE	s3://toy-cellxgene/human_lung_inflamed_002.h5ad
-cxg_mouse_lung_normal_003	Mouse normal lung steady-state atlas	Toy CELLxGENE Discover	mouse	lung	normal	10x 3' v3	cell	15000	TRUE	TRUE	cell_type	subtype_label	TRUE	s3://toy-cellxgene/mouse_lung_normal_003.h5ad
-cxg_human_lung_sparse_004	Human lung pilot without curated labels	Toy CELLxGENE Discover	human	lung	normal	10x 3' v3	cell	2200	FALSE	FALSE			TRUE	s3://toy-cellxgene/human_lung_sparse_004.h5ad

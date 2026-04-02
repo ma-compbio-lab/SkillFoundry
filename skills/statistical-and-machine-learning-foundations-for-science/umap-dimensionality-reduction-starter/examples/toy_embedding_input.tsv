@@ -1,7 +1,0 @@
-sample_id	label	f1	f2	f3	f4
-a1	alpha	0.0	0.1	0.0	0.2
-a2	alpha	0.1	0.0	0.2	0.1
-a3	alpha	0.2	0.1	0.1	0.0
-b1	beta	5.0	5.1	4.9	5.2
-b2	beta	5.2	5.0	5.1	4.8
-b3	beta	4.9	5.2	5.0	5.1

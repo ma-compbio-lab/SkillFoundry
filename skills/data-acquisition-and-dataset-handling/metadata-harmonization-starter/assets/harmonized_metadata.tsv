@@ -1,5 +1,0 @@
-sample_id	donor_id	sex	age_years	condition	source_file
-A1	D100	female	34	control	cohort_a.tsv
-A2	D101	male	51	treated	cohort_a.tsv
-B1	D200	female	29	control	cohort_b.tsv
-B2	D201	male	47	treated	cohort_b.tsv

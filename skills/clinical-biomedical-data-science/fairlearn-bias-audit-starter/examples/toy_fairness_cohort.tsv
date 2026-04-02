@@ -1,9 +1,0 @@
-patient_id	sensitive_group	readmission_30d	predicted_high_risk	risk_score
-P001	A	1	1	0.91
-P002	A	1	1	0.85
-P003	A	0	1	0.67
-P004	A	0	0	0.31
-P005	B	1	1	0.77
-P006	B	1	0	0.44
-P007	B	0	0	0.28
-P008	B	0	0	0.22

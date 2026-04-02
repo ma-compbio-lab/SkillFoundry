@@ -1,7 +1,0 @@
-{
-  "fields": [
-    {"name": "sample_id", "type": "string"},
-    {"name": "condition", "type": "string"},
-    {"name": "count", "type": "integer"}
-  ]
-}

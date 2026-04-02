@@ -1,7 +1,0 @@
-@HD	VN:1.6	SO:coordinate
-@SQ	SN:chr1	LN:1000
-@SQ	SN:chr2	LN:1000
-readA	99	chr1	1	60	8M	=	41	48	ACGTACGT	FFFFFFFF
-readB	147	chr1	41	60	8M	=	1	-48	TGCATGCA	FFFFFFFF
-readC	0	chr2	5	50	8M	*	0	0	GATTACAG	FFFFFFFF
-readD	4	*	0	0	*	*	0	0	NNNNNNNN	!!!!!!!!

@@ -1,6 +1,0 @@
-Figure 1: Single-cell atlas overview and preprocessing pipeline.
-The analysis integrates RNA and ATAC modalities for downstream clustering.
-
-Table 1. Cohort composition and sequencing depth across donors.
-
-Fig. 2 Results of marker-gene ranking across major immune lineages.

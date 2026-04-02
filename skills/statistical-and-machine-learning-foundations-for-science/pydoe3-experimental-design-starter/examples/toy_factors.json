@@ -1,5 +1,0 @@
-{
-  "factor_names": ["temperature_c", "ph"],
-  "low": [20.0, 6.5],
-  "high": [30.0, 7.5]
-}

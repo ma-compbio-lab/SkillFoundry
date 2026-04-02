@@ -1,9 +1,0 @@
-{
-  "energy_drop": 0.00662938,
-  "final_distance": 3.816371,
-  "final_energy": -0.01023645,
-  "initial_distance": 5.0,
-  "initial_energy": -0.00360707,
-  "input_path": "/home/shuaikes/projects/agent/SciSkillUniverse/skills/computational-chemistry-and-molecular-simulation/ase-geometry-optimization-starter/examples/toy_argon_dimer.json",
-  "step_count": 9
-}

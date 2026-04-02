@@ -1,5 +1,0 @@
-sample_id	count	score	label
-s1	10	0.5	control
-s2	12	0.7	control
-s3	24	1.4	case
-s4	28	1.8	case

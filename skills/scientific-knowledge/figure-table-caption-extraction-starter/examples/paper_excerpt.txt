@@ -1,6 +1,0 @@
-Introduction text.
-
-Figure 1. UMAP projection of integrated single-cell states across tissues.
-Figure 2: Marker-gene enrichment scores for major immune compartments.
-Table 1. Dataset summary statistics and sequencing depth.
-Table 2: Benchmark metrics across integration methods.
