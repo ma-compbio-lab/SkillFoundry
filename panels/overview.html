@@ -1,0 +1,32 @@
+<div class="hero-banner">
+  <div>
+    <div class="hero-eyebrow">AI for Science Skill Atlas</div>
+    <div class="hero-title">SkillFoundry</div>
+    <p class="hero-lede">A live registry of reusable scientific skills, curated source materials, and runnable verification paths across workflows, omics, chemistry, geospatial analysis, agents, and reporting.</p>
+    <p id="overview-summary">Loading site data…</p>
+  </div>
+  <div class="hero-side">
+    <div class="hero-stat-card"><div class="hero-stat-label">Verification Surface</div><div class="hero-stat-val" id="hero-verify">Loading…</div></div>
+    <div class="hero-stat-card"><div class="hero-stat-label">Graph Snapshot</div><div class="hero-stat-val" id="hero-graph">Loading…</div></div>
+    <div class="hero-stat-card"><div class="hero-stat-label">Coverage</div><div class="hero-stat-val" id="hero-coverage">Loading…</div></div>
+  </div>
+</div>
+<div class="stats-row" id="stats-row"></div>
+<div class="ov-grid">
+  <div>
+    <div class="sec-head">
+      <div class="sec-title">Domain Coverage</div>
+      <p class="sec-sub">Click a domain to filter the catalog.</p>
+      <div class="legend-row">
+        <span class="legend-item"><span class="legend-dot" style="background:var(--green)"></span>Covered</span>
+        <span class="legend-item"><span class="legend-dot" style="background:var(--amber)"></span>Frontier</span>
+        <span class="legend-item"><span class="legend-dot" style="background:var(--border-hi)"></span>TODO</span>
+      </div>
+    </div>
+    <div class="domain-grid" id="domain-grid"></div>
+  </div>
+  <div>
+    <div class="sec-head"><div class="sec-title">Frontier Board</div><p class="sec-sub">Leaves with resources but no skill coverage yet.</p></div>
+    <div class="frontier-list" id="frontier-list"></div>
+  </div>
+</div>

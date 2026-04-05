@@ -1,0 +1,12 @@
+<div class="sec-head"><div class="sec-title">Skill Catalog</div><p class="sec-sub">Filter by domain, status, or compute profile. Click any link to open the skill detail drawer.</p></div>
+<div class="catalog-controls">
+  <div class="ctrl"><label for="search">Search</label><input id="search" type="search" placeholder="name, topic, tags, description…"></div>
+  <div class="ctrl"><label for="f-status">Status</label><select id="f-status"><option value="">All statuses</option></select></div>
+  <div class="ctrl"><label for="f-domain">Domain</label><select id="f-domain"><option value="">All domains</option></select></div>
+  <div class="ctrl"><label for="f-compute">Compute</label><select id="f-compute"><option value="">All compute</option></select></div>
+  <div class="ctrl"><label for="f-sort">Sort</label><select id="f-sort"><option value="verification">Verification</option><option value="recent">Recent</option><option value="name">Name</option></select></div>
+</div>
+<div class="catalog-layout">
+  <div><div class="skill-count-label" id="skill-count-label">Loading…</div><div class="skill-list" id="skills"></div></div>
+  <div class="tree-shell" id="tree"></div>
+</div>
