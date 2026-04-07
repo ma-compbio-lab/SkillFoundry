@@ -6,7 +6,7 @@
 
 **Shuaike Shen\*, Wenduo Cheng\*, Mingqian Ma, Alistair Turcan, Martin Jinye Zhang, Jian Ma†**
 
-Ray & Stephanie Lane Computational Biology, School of Computer Science, Carnegie Mellon University
+Ray & Stephanie Lane Computational Biology Department, School of Computer Science, Carnegie Mellon University
 
 [\*Equal contribution · †Correspondence: jianma@cs.cmu.edu]
 
