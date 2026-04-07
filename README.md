@@ -12,6 +12,7 @@ Ray & Stephanie Lane Computational Biology, School of Computer Science, Carnegie
 
 <p>
   <a href="https://ma-compbio-lab.github.io/SkillFoundry/"><img src="https://img.shields.io/badge/Project-Page-blue?style=for-the-badge" alt="Project Page"></a>&nbsp;
+  <a href="https://arxiv.org/abs/2604.03964"><img src="https://img.shields.io/badge/arXiv-2604.03964-b31b1b?style=for-the-badge" alt="arXiv"></a>&nbsp;
   <a href="https://ma-compbio-lab.github.io/SkillFoundry/assets/paper/paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-red?style=for-the-badge" alt="Paper"></a>&nbsp;
   <a href="https://github.com/ma-compbio-lab/SkillFoundry"><img src="https://img.shields.io/badge/GitHub-Code-black?style=for-the-badge&logo=github" alt="GitHub"></a>
 </p>
