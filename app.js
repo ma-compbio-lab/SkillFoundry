@@ -206,6 +206,30 @@ function closeSkillDetail(){
   if(!_navFromPop){history.back();}
 }
 
+async function downloadSkill(skillId){
+  const btn=document.getElementById('sd-download');
+  if(btn.classList.contains('busy'))return;
+  btn.classList.add('busy');
+  try{
+    const sk=_sdSkills.find(s=>s.skill_id===skillId||s.slug===skillId)||{};
+    const d=_sdDetails[skillId]||{};
+    const zip=new JSZip();
+    if(d.skill_md)zip.file('skill.md',d.skill_md);
+    if(d.refs_md)zip.file('refs.md',d.refs_md);
+    if(d.tests_md)zip.file('tests.md',d.tests_md);
+    const meta=d.metadata_raw||(Object.keys(sk).length?sk:null);
+    if(meta)zip.file('metadata.json',JSON.stringify(meta,null,2));
+    const blob=await zip.generateAsync({type:'blob',compression:'DEFLATE'});
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download=`${sk.slug||skillId}.zip`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }finally{
+    btn.classList.remove('busy');
+  }
+}
+
 /* ═══════════════ OVERVIEW RENDERS ═══════════════ */
 function renderStats(skills,graph,tree){
   const rc=graph.nodes.filter(n=>n.type==="resource").length;
@@ -429,6 +453,7 @@ async function main(){
   update();
 
   document.getElementById("sd-close").addEventListener("click",closeSkillDetail);
+  document.getElementById("sd-download").addEventListener("click",()=>downloadSkill(_sdCurrent));
   document.getElementById("sd-overlay").addEventListener("click",closeSkillDetail);
   document.getElementById("sd-tab-strip").addEventListener("click",e=>{const b=e.target.closest(".sd-tab");if(b)sdSwitchTab(b.dataset.sdTab);});
   document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSkillDetail();});

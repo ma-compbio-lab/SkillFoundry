@@ -429,6 +429,10 @@ button, input, select { font: inherit; }
 .sd-close { flex-shrink: 0; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface); cursor: pointer; color: var(--ink-3); transition: background 0.15s, color 0.15s; margin-top: 2px; }
 .sd-close:hover { background: var(--bg-alt); color: var(--ink); }
 .sd-close svg { width: 16px; height: 16px; stroke: currentColor; stroke-width: 2; fill: none; }
+.sd-download { flex-shrink: 0; height: 34px; padding: 0 12px; display: flex; align-items: center; gap: 6px; border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface); cursor: pointer; color: var(--ink-3); font-size: 0.8rem; font-weight: 500; font-family: var(--sans); transition: background 0.15s, color 0.15s, border-color 0.15s; margin-top: 2px; white-space: nowrap; }
+.sd-download:hover { background: var(--blue); color: #fff; border-color: var(--blue); }
+.sd-download svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 2; fill: none; flex-shrink: 0; }
+.sd-download.busy { opacity: 0.6; cursor: wait; }
 .sd-tabs { display: flex; flex-shrink: 0; position: relative; border-bottom: 1px solid var(--border); background: var(--surface); overflow-x: auto; scrollbar-width: none; }
 .sd-tabs::-webkit-scrollbar { display: none; }
 .sd-tab { padding: 0 22px; height: 44px; font-size: 0.84rem; font-weight: 500; color: var(--ink-3); border: none; background: none; cursor: pointer; border-bottom: 2px solid transparent; transition: color 0.18s; white-space: nowrap; }
