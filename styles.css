@@ -429,8 +429,8 @@ button, input, select { font: inherit; }
 .sd-close { flex-shrink: 0; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface); cursor: pointer; color: var(--ink-3); transition: background 0.15s, color 0.15s; margin-top: 2px; }
 .sd-close:hover { background: var(--bg-alt); color: var(--ink); }
 .sd-close svg { width: 16px; height: 16px; stroke: currentColor; stroke-width: 2; fill: none; }
-.sd-download { flex-shrink: 0; height: 34px; padding: 0 12px; display: flex; align-items: center; gap: 6px; border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface); cursor: pointer; color: var(--ink-3); font-size: 0.8rem; font-weight: 500; font-family: var(--sans); transition: background 0.15s, color 0.15s, border-color 0.15s; margin-top: 2px; white-space: nowrap; }
-.sd-download:hover { background: var(--blue); color: #fff; border-color: var(--blue); }
+.sd-download { flex-shrink: 0; height: 34px; padding: 0 14px; display: flex; align-items: center; gap: 6px; border: 1px solid var(--blue); border-radius: var(--r-sm); background: var(--blue); cursor: pointer; color: #fff; font-size: 0.8rem; font-weight: 600; font-family: var(--sans); transition: background 0.15s, color 0.15s, border-color 0.15s, box-shadow 0.15s; margin-top: 2px; white-space: nowrap; box-shadow: 0 1px 4px rgba(59,108,239,0.25); }
+.sd-download:hover { background: #2b5ad9; border-color: #2b5ad9; box-shadow: 0 2px 8px rgba(59,108,239,0.35); }
 .sd-download svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 2; fill: none; flex-shrink: 0; }
 .sd-download.busy { opacity: 0.6; cursor: wait; }
 .sd-tabs { display: flex; flex-shrink: 0; position: relative; border-bottom: 1px solid var(--border); background: var(--surface); overflow-x: auto; scrollbar-width: none; }
