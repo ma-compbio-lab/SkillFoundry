@@ -62,18 +62,25 @@ def validate_structure(errors: list[str]) -> None:
         ROOT / "tests" / "smoke",
         ROOT / "tests" / "regression",
         ROOT / "tests" / "integration",
-        ROOT / "tests" / "slurm",
         ROOT / "site",
+        ROOT / "scripts",
+    ]
+    # Runtime directories that are gitignored — auto-create if missing.
+    autocreate_paths = [
+        ROOT / "tests" / "slurm",
         ROOT / "slurm" / "envs",
         ROOT / "slurm" / "jobs",
         ROOT / "slurm" / "logs",
         ROOT / "slurm" / "reports",
         ROOT / "scratch",
         ROOT / "reports",
-        ROOT / "scripts",
     ]
     for path in required_paths:
         require(path.exists(), f"Missing required path: {path.relative_to(ROOT)}", errors)
+    for path in autocreate_paths:
+        if not path.exists():
+            path.mkdir(parents=True, exist_ok=True)
+            print(f"Created missing runtime directory: {path.relative_to(ROOT)}")
 
 
 def validate_resources(errors: list[str]) -> dict[str, dict]:

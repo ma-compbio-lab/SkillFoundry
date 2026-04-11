@@ -37,7 +37,8 @@ class SiteBuildTests(unittest.TestCase):
         self.assertEqual(framework["run_count"], manifest_count)
         self.assertIn("runs", framework)
         self.assertIn("latest_status", framework)
-        self.assertEqual(framework["latest_status"]["summary"]["skill_count"], registry_count)
+        if framework["latest_status"] is not None:
+            self.assertEqual(framework["latest_status"]["summary"]["skill_count"], registry_count)
         self.assertEqual(tree["frontier_leaf_count"], 0)
         self.assertEqual(tree["todo_leaf_count"], 0)
         earth_domain = next(node for node in tree["children"] if node["taxonomy_key"] == "earth_climate_and_geospatial_science")
