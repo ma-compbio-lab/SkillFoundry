@@ -89,6 +89,7 @@ SkillFoundry/
 ```bash
 git clone https://github.com/ma-compbio-lab/SkillFoundry.git
 cd SkillFoundry
+pip install -e .       # Install the skillfoundry package
 ```
 
 ### Quick Validation

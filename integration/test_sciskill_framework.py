@@ -10,9 +10,9 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from sciskill_framework.campaign import FrameworkCampaignRunner
-from sciskill_framework.codex_exec import CodexExecRunner
-from sciskill_framework import SkillAutomationFramework
+from skillfoundry.campaign import FrameworkCampaignRunner
+from skillfoundry.codex_exec import CodexExecRunner
+from skillfoundry import SkillAutomationFramework
 
 
 ROOT = Path(__file__).resolve().parents[2]
