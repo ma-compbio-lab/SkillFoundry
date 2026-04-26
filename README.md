@@ -174,4 +174,4 @@ Citation information will be available once the paper is published. Check back l
 
 ## License
 
-This project is developed at [Ma Lab](https://www.cs.cmu.edu/~jianma/), Carnegie Mellon University.
+This project is licensed under the [Apache License 2.0](LICENSE) and developed at [Ma Lab](https://www.cs.cmu.edu/~jianma/), Carnegie Mellon University.
