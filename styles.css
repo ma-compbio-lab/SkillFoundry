@@ -491,15 +491,22 @@ button, input, select { font: inherit; }
   margin-bottom: 32px;
 }
 
-.paper-venue-badge {
-  display: inline-block;
-  padding: 3px 12px; border-radius: 999px;
+.paper-venue {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  margin: -10px auto 22px; padding: 7px 14px 7px 10px;
+  border: 1px solid var(--blue-med); border-radius: var(--r-md);
   background: linear-gradient(135deg, var(--blue-soft), var(--green-soft));
-  border: 1px solid var(--blue-med);
-  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em;
-  text-transform: uppercase; color: var(--blue);
-  margin-bottom: 20px;
+  color: var(--ink-2); text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 }
+.paper-venue:hover {
+  border-color: var(--blue); box-shadow: var(--shadow-xs);
+  color: var(--ink); text-decoration: none; transform: translateY(-1px);
+}
+.paper-venue img { width: 44px; height: 29px; object-fit: contain; }
+.paper-venue span { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2; }
+.paper-venue strong { font-size: 0.8rem; color: var(--blue); letter-spacing: 0.01em; }
+.paper-venue small { margin-top: 2px; font-size: 0.66rem; color: var(--ink-3); }
 
 .paper-title {
   font-family: var(--serif);
@@ -554,19 +561,6 @@ button, input, select { font: inherit; }
 .paper-btn.btn-primary:hover { background: #2a54c7; border-color: #2a54c7; color: #fff; }
 .paper-btn.btn-gh { background: var(--ink); border-color: var(--ink); color: #fff; }
 .paper-btn.btn-gh:hover { background: var(--ink-2); border-color: var(--ink-2); color: #fff; }
-
-/* Ongoing project notice */
-.paper-ongoing-notice {
-  display: flex; align-items: flex-start; gap: 12px;
-  padding: 14px 18px;
-  border-radius: var(--r-md);
-  background: linear-gradient(135deg, rgba(208,136,25,0.07), rgba(59,108,239,0.05));
-  border: 1.5px solid var(--amber-med);
-  margin-bottom: 36px;
-}
-.paper-ongoing-notice svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--amber); stroke: currentColor; fill: none; stroke-width: 2; margin-top: 1px; }
-.paper-ongoing-notice p { font-size: 0.88rem; color: var(--ink-2); line-height: 1.55; }
-.paper-ongoing-notice strong { color: var(--amber); }
 
 /* Section layout */
 .paper-section {
